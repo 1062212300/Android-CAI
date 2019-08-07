@@ -1,0 +1,16 @@
+<color name="colorWrite">#FFFFFF</color>
+<color name="colorDarkGray">#F5F5F5</color>
+<color name="colorBlank">#000000</color>
+<color name="colorGray">#808080</color>
+<color name="colorSilver">#C0C0C0</color>
+<color name="colorWhite">#FFFFFF</color>
+<color name="colorDodgerBlue">#1E90FF</color>
+<color name="colorWhiteSmoke">#F5F5F5</color>
+<color name="colorGreen">#0DBF8C</color>
+<color name="colorSkyBlue">#00BFFF</color>
+<color name="colorPalegreen">#92BD33</color>
+<color name="colorGinger">#F0CF5E</color>
+<color name="colorLightYellow">#FFFFE0</color>
+<color name="colorAmber">#FFBF00</color>
+<color name="colorSnow">#FFFAFA</color>
+

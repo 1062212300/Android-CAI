@@ -1,0 +1,7 @@
+tv_username---账号显示
+et_username---账号输入
+tv_password---密码显示
+et_password---密码输入
+tv_registe---注册跳转
+btn_login---login页面登录按钮
+tv_server---服务条款提示
