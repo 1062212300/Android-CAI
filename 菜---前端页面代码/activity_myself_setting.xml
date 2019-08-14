@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPalegreen">
+
+        <ImageView
+            android:id="@+id/myself_setting_return"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/returnlogo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="23dp"
+            android:gravity="center_vertical"
+            android:text="设置"
+            android:textColor="@color/colorWhite"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/colorDarkGray"
+        />
+
+    <LinearLayout
+        android:id="@+id/myself_setting_personaldata"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="55dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="更改个人资料"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/colorBlank"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorDarkGray"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/myself_setting_passWord"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="55dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="修改密码"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/colorBlank"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/colorDarkGray"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/myself_setting_we"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="关于我们"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/colorBlank"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorDarkGray"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/myself_setting_help"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="帮助与反馈"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/colorBlank"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/colorDarkGray"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/myself_setting_switchaccount"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="切换账号"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/colorBlank"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorDarkGray"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/myself_setting_break"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="退出登录"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/colorBlank"
+            />
+    </LinearLayout>
+
+</LinearLayout>

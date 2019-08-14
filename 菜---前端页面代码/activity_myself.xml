@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="70dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPalegreen">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="24sp"
+            android:text="我的"
+            android:layout_marginLeft="23dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorWhite"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/img_touxiang"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/mhyself_touxiang"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:id="@+id/img_touxiangmoban"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@drawable/touxiangmoban"
+            android:layout_gravity="center"
+            android:layout_marginTop="-85dp"/>
+        <TextView
+            android:id="@+id/myself_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="登录/注册"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/colorBlank"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginBottom="5dp"
+            />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/colorDarkGray"
+        />
+
+    <LinearLayout
+        android:id="@+id/myself_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/myself_qianbao"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="我的钱包"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/colorBlank"
+            />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorDarkGray"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/colorDarkGray"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/meself_shoucang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/myself_shoucang"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="我的收藏"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/colorBlank"
+            />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorDarkGray"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/meself_wodesifangcai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/myself_guo"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="我的私房菜"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/colorBlank"
+            />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/colorDarkGray"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/myself_userfeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/myself_fankui"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="用户反馈"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/colorBlank"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorDarkGray"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/myself_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:src="@drawable/myself_shezhi"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="设置"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/colorBlank"
+            />
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
