@@ -20,7 +20,7 @@
     * Email :1546419171@qq.com
     * GitHub:[https://github.com/zhaoyunfeng123](https://github.com/zhaoyunfeng123)
 * 李奥博（产品经理、UI设计师、开发工程师、副组长）
-    * Email :1654lab@foxmail.com
+    * Email :lab1654@foxmail.com
     * GitHub:[https://github.com/1062212300](https://github.com/1062212300)
  * 杨时雨（UI设计师、开发工程师、测试工程师）
     * Email :yangsy823@outlook.com
@@ -112,7 +112,7 @@
 
 * 具体客户端、服务器端代码请到https://github.com/1062212300
   * QQ:1062212300
-  * Email:1654lab@foxmail.com
+  * Email:lab1654@foxmail.com
 * 感谢观看！
 
 
